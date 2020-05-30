@@ -22,6 +22,7 @@ $(document).ready(function () {
     $('#selectdeptDiv').hide();
     $('#selectdeptDiv2').hide();
     $('#submit').hide();
+    $('#submitWork').hide();
 
     //$('#gaming_label').on('click', function () {
     //    document.getElementsByName('dept')[0].checked = true;
