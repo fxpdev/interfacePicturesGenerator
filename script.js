@@ -68,7 +68,6 @@ $(document).ready(function () {
 });
 function showButton() {
     $('#submit').fadeIn("slow");
-    $('#submitWork').fadeIn("slow");
 }
 
 //copy string
@@ -122,6 +121,8 @@ function putTemplate() {
     $('#imageR').css("border", "none");
     $('#imageR').hide();
     $('#loading').show("fast");
+    $('#submitWork').fadeIn("slow");
+
 
     var image = new Image();
     if (true) {
