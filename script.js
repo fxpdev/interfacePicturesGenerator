@@ -68,6 +68,7 @@ $(document).ready(function () {
 });
 function showButton() {
     $('#submit').fadeIn("slow");
+    $('#submitWork').fadeIn("slow");
 }
 
 //copy string
