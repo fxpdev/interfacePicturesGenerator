@@ -121,7 +121,6 @@ function putTemplate() {
     $('#imageR').css("border", "none");
     $('#imageR').hide();
     $('#loading').show("fast");
-    $('#submitWork').fadeIn("slow");
 
 
     var image = new Image();
@@ -207,7 +206,8 @@ function putTemplate() {
                         //ready
                         // Get the button that opens the modal
                         var btn = document.getElementById("myBtn");
-
+                        $('#submitWork').fadeIn("slow");
+                        
                         // Get the <span> element that closes the modal
                         var span = document.getElementsByClassName("close")[1];
                         console.log(span);
